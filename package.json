@@ -1,0 +1,24 @@
+{
+  "name": "bd-offline-map",
+  "version": "1.0.0",
+  "description": "for offline map",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "keywords": [
+    "offlinemap",
+    "map",
+    "offline",
+    "baidumap",
+    "offlinedrawingManager"
+  ],
+  "author": "xiaohei",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "html-webpack-plugin": "^4.5.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
